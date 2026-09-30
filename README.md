@@ -23,7 +23,11 @@ npm install
 npm run dev
 ```
 
-Then open the local address shown by the development server.
+Then open **http://localhost:3000** in your browser.
+
+If port 3000 is already occupied, run `set PORT=3001 && npm run dev` on Windows and open **http://localhost:3001**.
+
+For Windows, you can also double-click `run-local.bat`.
 
 ## Build
 

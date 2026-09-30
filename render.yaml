@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: jm-enterprises
+    env: node
+    plan: free
+    buildCommand: bun install --frozen-lockfile && bun run build
+    startCommand: node dist/server.cjs
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NODE_VERSION
+        value: 22.14.0
+      - key: TOKEN_SECRET
+        sync: false

@@ -9,7 +9,7 @@ import { handleCustomerChat } from './server/aiChat.js';
 import { Order, OrderStatus, User } from './src/types.js';
 
 const app = express();
-const PORT = 3000;
+const PORT = Number(process.env.PORT || 3000);
 
 app.use(express.json());
 
@@ -575,11 +575,32 @@ async function startServer() {
     });
   }
 
-  app.listen(PORT, '0.0.0.0', () => {
-    console.log(`JM Enterprises server running on http://0.0.0.0:${PORT}`);
+  const host = process.env.NODE_ENV === 'production' ? '0.0.0.0' : '127.0.0.1';
+
+  const server = app.listen(PORT, host, () => {
+    const localUrl = `http://localhost:${PORT}`;
+    console.log('');
+    console.log('==============================================');
+    console.log(' JM Enterprises is running');
+    console.log(` Local:  ${localUrl}`);
+    console.log('==============================================');
+    console.log('');
+  });
+
+  server.on('error', (err: NodeJS.ErrnoException) => {
+    if (err.code === 'EADDRINUSE') {
+      console.error(`\nPort ${PORT} is already in use.`);
+      console.error(`Close the application using port ${PORT}, or start with another port:`);
+      console.error(process.env.NODE_ENV === 'production' ? 'Render sets PORT automatically.' : `Windows CMD: set PORT=3001 && npm run dev`);
+    } else {
+      console.error('Server error:', err);
+    }
+    process.exit(1);
   });
 }
 
 startServer().catch((err) => {
-  console.error('Failed to start server:', err);
+  console.error('\nFailed to start JM Enterprises.');
+  console.error(err);
+  process.exit(1);
 });
