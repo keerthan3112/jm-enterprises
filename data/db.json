@@ -1,0 +1,1401 @@
+{
+  "version": 1,
+  "lastReceiptNumber": 8,
+  "users": [
+    {
+      "id": "usr-admin-01",
+      "name": "JM Administrator",
+      "email": "admin@jmenterprises.com",
+      "phone": "8747991688",
+      "role": "admin",
+      "createdAt": 1787546496610,
+      "salt": "9b5395e303f6b15a00b68ff4e6e41309",
+      "passwordHash": "60ec8da633e3cf70d28d21e899a772c724c9f4be4ddaf4c442f7d20c682c6e7ff7e86bed2e9babbe102d1010b7a2867fa6e939423c83bd2d76f3eff0b631f4cd"
+    }
+  ],
+  "items": [
+    {
+      "id": "x-bw",
+      "name": "Black & White Xerox / Photocopy",
+      "category": "Xerox",
+      "price": 2,
+      "unit": "per page",
+      "inStock": true,
+      "description": "Single or double-sided 75 GSM crisp print"
+    },
+    {
+      "id": "x-color",
+      "name": "Colour Xerox / Photocopy",
+      "category": "Xerox",
+      "price": 10,
+      "unit": "per page",
+      "inStock": true,
+      "description": "High resolution vibrant colour copy"
+    },
+    {
+      "id": "p-bw",
+      "name": "B&W Printout (A4)",
+      "category": "Printing",
+      "price": 2,
+      "unit": "per page",
+      "inStock": true,
+      "description": "Laser print from WhatsApp / Email / Pen-drive"
+    },
+    {
+      "id": "p-color",
+      "name": "Colour Printout (A4)",
+      "category": "Printing",
+      "price": 10,
+      "unit": "per page",
+      "inStock": true,
+      "description": "Photo-quality inkjet / laser printout"
+    },
+    {
+      "id": "p-photo",
+      "name": "Passport Photo Print (Set of 8)",
+      "category": "Printing",
+      "price": 30,
+      "unit": "per set",
+      "inStock": true,
+      "description": "Instant glossy passport photos with white/blue background"
+    },
+    {
+      "id": "p-lam",
+      "name": "Lamination (A4 Document)",
+      "category": "Printing",
+      "price": 20,
+      "unit": "per sheet",
+      "inStock": true,
+      "description": "Heavy-duty waterproof document lamination"
+    },
+    {
+      "id": "p-bind",
+      "name": "Spiral Binding with Transparent Cover",
+      "category": "Printing",
+      "price": 40,
+      "unit": "per book",
+      "inStock": true,
+      "description": "Project reports, notes, presentations up to 200 pages"
+    },
+    {
+      "id": "p-idcard",
+      "name": "ID Card Print & Lamination",
+      "category": "Printing",
+      "price": 50,
+      "unit": "per card",
+      "inStock": true,
+      "description": "Aadhaar, PAN, College / School ID pouch"
+    },
+    {
+      "id": "s-pen-blue",
+      "name": "Ball Pen (Blue ink)",
+      "category": "Stationery",
+      "price": 10,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Smooth flow ballpoint pen"
+    },
+    {
+      "id": "s-pen-black",
+      "name": "Ball Pen (Black ink)",
+      "category": "Stationery",
+      "price": 10,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Official document writing pen"
+    },
+    {
+      "id": "s-gel-pen",
+      "name": "Waterproof Gel Pen (0.5mm)",
+      "category": "Stationery",
+      "price": 20,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Smudge-free fine tip gel pen"
+    },
+    {
+      "id": "s-pencil",
+      "name": "Pencil (HB Dark)",
+      "category": "Stationery",
+      "price": 5,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Standard student writing pencil"
+    },
+    {
+      "id": "s-eraser",
+      "name": "Dust-free Eraser",
+      "category": "Stationery",
+      "price": 5,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Clean erasing without paper tearing"
+    },
+    {
+      "id": "s-sharp",
+      "name": "Sharpener with Container",
+      "category": "Stationery",
+      "price": 5,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Anti-rust blade"
+    },
+    {
+      "id": "s-scale",
+      "name": "Ruler Scale (15cm)",
+      "category": "Stationery",
+      "price": 10,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Clear transparent plastic ruler"
+    },
+    {
+      "id": "s-steel-scale",
+      "name": "Steel Ruler (30cm / 12 inch)",
+      "category": "Stationery",
+      "price": 35,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Heavy-duty stainless steel scale"
+    },
+    {
+      "id": "s-nb-sm",
+      "name": "Notebook (100 pages - Single line)",
+      "category": "Stationery",
+      "price": 40,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Soft-bound student notebook"
+    },
+    {
+      "id": "s-nb-lg",
+      "name": "Long Register Notebook (200 pages)",
+      "category": "Stationery",
+      "price": 80,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Hardcover ledger/notes notebook"
+    },
+    {
+      "id": "s-a4-bundle",
+      "name": "A4 Copier Paper Bundle (100 Sheets)",
+      "category": "Stationery",
+      "price": 150,
+      "unit": "per pack",
+      "inStock": true,
+      "description": "75 GSM Bright white multipurpose paper"
+    },
+    {
+      "id": "s-a4-rim",
+      "name": "A4 Copier Paper Full Ream (500 Sheets)",
+      "category": "Stationery",
+      "price": 340,
+      "unit": "per ream",
+      "inStock": true,
+      "description": "75 GSM premium copier ream"
+    },
+    {
+      "id": "s-file",
+      "name": "Clear File Folder (Stick/Clip)",
+      "category": "Stationery",
+      "price": 25,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Document presentation folder"
+    },
+    {
+      "id": "s-marker",
+      "name": "Permanent Marker (Black/Blue)",
+      "category": "Stationery",
+      "price": 20,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Waterproof multi-surface marker"
+    },
+    {
+      "id": "s-highlight",
+      "name": "Fluorescent Highlighter",
+      "category": "Stationery",
+      "price": 25,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Bright yellow/green text marker"
+    },
+    {
+      "id": "s-glue",
+      "name": "Fevistik Glue Stick (15g)",
+      "category": "Stationery",
+      "price": 20,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Clean mess-free paper glue"
+    },
+    {
+      "id": "s-tape",
+      "name": "Transparent Cello Tape (1 inch)",
+      "category": "Stationery",
+      "price": 15,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Strong adhesive tape"
+    },
+    {
+      "id": "s-stapler",
+      "name": "Stapler No. 10 with Pins Box",
+      "category": "Stationery",
+      "price": 65,
+      "unit": "per set",
+      "inStock": true,
+      "description": "Compact office/school stapler"
+    },
+    {
+      "id": "s-envelope",
+      "name": "Official Brown Envelope",
+      "category": "Stationery",
+      "price": 5,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Standard postal letter envelope"
+    },
+    {
+      "id": "m-transfer",
+      "name": "Domestic Money Transfer (DMT / IMPS)",
+      "category": "Money Transfer",
+      "price": 10,
+      "unit": "service fee / ₹1000",
+      "inStock": true,
+      "description": "Instant bank account transfer 24x7 with receipt"
+    },
+    {
+      "id": "m-aeps",
+      "name": "Aadhaar ATM Cash Withdrawal",
+      "category": "Money Transfer",
+      "price": 15,
+      "unit": "convenience fee",
+      "inStock": true,
+      "description": "Micro-ATM fingerprint cash withdrawal service"
+    },
+    {
+      "id": "nb-std-100-single",
+      "name": "Notebook (100 Pages - Single Line)",
+      "category": "Stationery",
+      "price": 35,
+      "unit": "per book",
+      "inStock": true,
+      "description": "Standard size notebook, single line ruled, 100 pages"
+    },
+    {
+      "id": "nb-std-100-2line",
+      "name": "Notebook (100 Pages - 2 Lines)",
+      "category": "Stationery",
+      "price": 35,
+      "unit": "per book",
+      "inStock": true,
+      "description": "Standard size 2-line ruled notebook (Hindi/language), 100 pages"
+    },
+    {
+      "id": "nb-std-100-4line",
+      "name": "Notebook (100 Pages - 4 Lines)",
+      "category": "Stationery",
+      "price": 35,
+      "unit": "per book",
+      "inStock": true,
+      "description": "Standard size 4-line ruled notebook (English handwriting), 100 pages"
+    },
+    {
+      "id": "nb-std-100-square",
+      "name": "Notebook (100 Pages - Square Ruled / Maths)",
+      "category": "Stationery",
+      "price": 35,
+      "unit": "per book",
+      "inStock": true,
+      "description": "Standard size math square grid notebook, 100 pages"
+    },
+    {
+      "id": "nb-std-100-unruled",
+      "name": "Notebook (100 Pages - Unruled / Plain)",
+      "category": "Stationery",
+      "price": 35,
+      "unit": "per book",
+      "inStock": true,
+      "description": "Standard size plain blank notebook, 100 pages"
+    },
+    {
+      "id": "nb-std-200-single",
+      "name": "Notebook (200 Pages - Single Line)",
+      "category": "Stationery",
+      "price": 65,
+      "unit": "per book",
+      "inStock": true,
+      "description": "Standard size notebook, single line ruled, 200 pages"
+    },
+    {
+      "id": "nb-std-200-2line",
+      "name": "Notebook (200 Pages - 2 Lines)",
+      "category": "Stationery",
+      "price": 65,
+      "unit": "per book",
+      "inStock": true,
+      "description": "Standard size 2-line ruled notebook, 200 pages"
+    },
+    {
+      "id": "nb-std-200-4line",
+      "name": "Notebook (200 Pages - 4 Lines)",
+      "category": "Stationery",
+      "price": 65,
+      "unit": "per book",
+      "inStock": true,
+      "description": "Standard size 4-line ruled notebook, 200 pages"
+    },
+    {
+      "id": "nb-std-200-square",
+      "name": "Notebook (200 Pages - Square Ruled / Maths)",
+      "category": "Stationery",
+      "price": 65,
+      "unit": "per book",
+      "inStock": true,
+      "description": "Standard size math square grid notebook, 200 pages"
+    },
+    {
+      "id": "nb-std-200-unruled",
+      "name": "Notebook (200 Pages - Unruled / Plain)",
+      "category": "Stationery",
+      "price": 65,
+      "unit": "per book",
+      "inStock": true,
+      "description": "Standard size plain blank notebook, 200 pages"
+    },
+    {
+      "id": "nb-long-100-single",
+      "name": "Long Notebook (100 Pages - Single Line)",
+      "category": "Stationery",
+      "price": 50,
+      "unit": "per book",
+      "inStock": true,
+      "description": "Long size student notebook, single line ruled, 100 pages"
+    },
+    {
+      "id": "nb-long-100-4line",
+      "name": "Long Notebook (100 Pages - 4 Lines)",
+      "category": "Stationery",
+      "price": 50,
+      "unit": "per book",
+      "inStock": true,
+      "description": "Long size 4-line ruled notebook, 100 pages"
+    },
+    {
+      "id": "nb-long-100-unruled",
+      "name": "Long Notebook (100 Pages - Unruled / Plain)",
+      "category": "Stationery",
+      "price": 50,
+      "unit": "per book",
+      "inStock": true,
+      "description": "Long size unruled blank notebook, 100 pages"
+    },
+    {
+      "id": "nb-long-200-single",
+      "name": "Long Notebook (200 Pages - Single Line)",
+      "category": "Stationery",
+      "price": 90,
+      "unit": "per book",
+      "inStock": true,
+      "description": "Long size student notebook, single line ruled, 200 pages"
+    },
+    {
+      "id": "nb-long-200-4line",
+      "name": "Long Notebook (200 Pages - 4 Lines)",
+      "category": "Stationery",
+      "price": 90,
+      "unit": "per book",
+      "inStock": true,
+      "description": "Long size 4-line ruled notebook, 200 pages"
+    },
+    {
+      "id": "nb-long-200-unruled",
+      "name": "Long Notebook (200 Pages - Unruled / Plain)",
+      "category": "Stationery",
+      "price": 90,
+      "unit": "per book",
+      "inStock": true,
+      "description": "Long size unruled blank notebook, 200 pages"
+    },
+    {
+      "id": "nb-king-100-single",
+      "name": "King Size Notebook (100 Pages - Single Line)",
+      "category": "Stationery",
+      "price": 60,
+      "unit": "per book",
+      "inStock": true,
+      "description": "Extra large King Size notebook, single line ruled, 100 pages"
+    },
+    {
+      "id": "nb-king-100-4line",
+      "name": "King Size Notebook (100 Pages - 4 Lines)",
+      "category": "Stationery",
+      "price": 60,
+      "unit": "per book",
+      "inStock": true,
+      "description": "Extra large King Size notebook, 4 lines, 100 pages"
+    },
+    {
+      "id": "nb-king-100-unruled",
+      "name": "King Size Notebook (100 Pages - Unruled / Plain)",
+      "category": "Stationery",
+      "price": 60,
+      "unit": "per book",
+      "inStock": true,
+      "description": "Extra large King Size notebook, plain unruled, 100 pages"
+    },
+    {
+      "id": "nb-king-200-single",
+      "name": "King Size Notebook (200 Pages - Single Line)",
+      "category": "Stationery",
+      "price": 110,
+      "unit": "per book",
+      "inStock": true,
+      "description": "Extra large King Size notebook, single line ruled, 200 pages"
+    },
+    {
+      "id": "nb-king-200-unruled",
+      "name": "King Size Notebook (200 Pages - Unruled / Plain)",
+      "category": "Stationery",
+      "price": 110,
+      "unit": "per book",
+      "inStock": true,
+      "description": "Extra large King Size notebook, plain unruled, 200 pages"
+    },
+    {
+      "id": "nb-reg-3q",
+      "name": "Account Register Book (3Q - 3 Quire / ~288 Pages)",
+      "category": "Stationery",
+      "price": 140,
+      "unit": "per book",
+      "inStock": true,
+      "description": "Hardbound heavy account register book, 3 Quire (approx. 288 pages)"
+    },
+    {
+      "id": "nb-reg-4q",
+      "name": "Account Register Book (4Q - 4 Quire / ~384 Pages)",
+      "category": "Stationery",
+      "price": 180,
+      "unit": "per book",
+      "inStock": true,
+      "description": "Hardbound heavy account register book, 4 Quire (approx. 384 pages)"
+    },
+    {
+      "id": "nb-reg-5q",
+      "name": "Account Register Book (5Q - 5 Quire / ~480 Pages)",
+      "category": "Stationery",
+      "price": 220,
+      "unit": "per book",
+      "inStock": true,
+      "description": "Hardbound heavy account register book, 5 Quire (approx. 480 pages)"
+    },
+    {
+      "id": "pen-cello-butterflow-blue",
+      "name": "Cello Butterflow Ball Pen (Blue)",
+      "category": "Stationery",
+      "price": 10,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Cello | Type: Ballpoint | Ink: Blue | Ultra-smooth low viscosity ink"
+    },
+    {
+      "id": "pen-cello-butterflow-black",
+      "name": "Cello Butterflow Ball Pen (Black)",
+      "category": "Stationery",
+      "price": 10,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Cello | Type: Ballpoint | Ink: Black | Official writing & documentation"
+    },
+    {
+      "id": "pen-cello-butterflow-red",
+      "name": "Cello Butterflow Ball Pen (Red)",
+      "category": "Stationery",
+      "price": 10,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Cello | Type: Ballpoint | Ink: Red | Teacher corrections & markup"
+    },
+    {
+      "id": "pen-cello-gripper-blue",
+      "name": "Cello Gripper Ball Pen (Blue)",
+      "category": "Stationery",
+      "price": 15,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Cello | Type: Ballpoint | Ink: Blue | Ergonomic soft rubber grip"
+    },
+    {
+      "id": "pen-cello-gripper-black",
+      "name": "Cello Gripper Ball Pen (Black)",
+      "category": "Stationery",
+      "price": 15,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Cello | Type: Ballpoint | Ink: Black | Soft rubber grip for exam writing"
+    },
+    {
+      "id": "pen-cello-maxriter-blue",
+      "name": "Cello Maxriter Ball Pen (Blue)",
+      "category": "Stationery",
+      "price": 10,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Cello | Type: Ballpoint | Ink: Blue | Extra-long writing reservoir"
+    },
+    {
+      "id": "pen-cello-technotip-blue",
+      "name": "Cello Technotip Ball Pen (0.6mm Blue)",
+      "category": "Stationery",
+      "price": 10,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Cello | Type: Ballpoint | Ink: Blue | Fine 0.6mm needle tip"
+    },
+    {
+      "id": "pen-cello-geltech-blue",
+      "name": "Cello Geltech Waterproof Gel Pen (Blue)",
+      "category": "Stationery",
+      "price": 15,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Cello | Type: Gel Pen | Ink: Blue | Waterproof quick-dry gel"
+    },
+    {
+      "id": "pen-cello-geltech-black",
+      "name": "Cello Geltech Waterproof Gel Pen (Black)",
+      "category": "Stationery",
+      "price": 15,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Cello | Type: Gel Pen | Ink: Black | Waterproof quick-dry gel"
+    },
+    {
+      "id": "pen-cello-pointer-green",
+      "name": "Cello Pointer Ball Pen (Green)",
+      "category": "Stationery",
+      "price": 10,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Cello | Type: Ballpoint | Ink: Green | Officer signature & audit notation"
+    },
+    {
+      "id": "pen-reynolds-045-blue",
+      "name": "Reynolds 045 Fine Carbure Ball Pen (Blue)",
+      "category": "Stationery",
+      "price": 10,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Reynolds | Type: Ballpoint | Ink: Blue | Classic non-smudge student pen"
+    },
+    {
+      "id": "pen-reynolds-045-black",
+      "name": "Reynolds 045 Fine Carbure Ball Pen (Black)",
+      "category": "Stationery",
+      "price": 10,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Reynolds | Type: Ballpoint | Ink: Black | Precision laser tip 0.7mm"
+    },
+    {
+      "id": "pen-reynolds-045-red",
+      "name": "Reynolds 045 Fine Carbure Ball Pen (Red)",
+      "category": "Stationery",
+      "price": 10,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Reynolds | Type: Ballpoint | Ink: Red | Checking & marking"
+    },
+    {
+      "id": "pen-reynolds-trimax-blue",
+      "name": "Reynolds Trimax Liquid Gel Pen (Blue)",
+      "category": "Stationery",
+      "price": 60,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Reynolds | Type: Rollerball / Gel | Ink: Blue | Advanced fluid ink system & refillable"
+    },
+    {
+      "id": "pen-reynolds-trimax-black",
+      "name": "Reynolds Trimax Liquid Gel Pen (Black)",
+      "category": "Stationery",
+      "price": 60,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Reynolds | Type: Rollerball / Gel | Ink: Black | Jet black refillable precision roller"
+    },
+    {
+      "id": "pen-reynolds-jetter-blue",
+      "name": "Reynolds Jetter Classic Retractable Ball Pen (Blue)",
+      "category": "Stationery",
+      "price": 35,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Reynolds | Type: Ballpoint | Ink: Blue | Click push-button executive metal clip"
+    },
+    {
+      "id": "pen-reynolds-aeroslim-blue",
+      "name": "Reynolds Aeroslim Ball Pen (Blue)",
+      "category": "Stationery",
+      "price": 10,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Reynolds | Type: Ballpoint | Ink: Blue | Lightweight slim body"
+    },
+    {
+      "id": "pen-hauser-xo-blue",
+      "name": "Hauser XO Ultra-Glide Ball Pen (Blue)",
+      "category": "Stationery",
+      "price": 10,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Hauser | Type: Ballpoint | Ink: Blue | German technology ultra-smooth glide"
+    },
+    {
+      "id": "pen-hauser-xo-black",
+      "name": "Hauser XO Ultra-Glide Ball Pen (Black)",
+      "category": "Stationery",
+      "price": 10,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Hauser | Type: Ballpoint | Ink: Black | Dark intense black german ink"
+    },
+    {
+      "id": "pen-hauser-xo-red",
+      "name": "Hauser XO Ultra-Glide Ball Pen (Red)",
+      "category": "Stationery",
+      "price": 10,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Hauser | Type: Ballpoint | Ink: Red | German ink smooth flow"
+    },
+    {
+      "id": "pen-hauser-xo-green",
+      "name": "Hauser XO Ultra-Glide Ball Pen (Green)",
+      "category": "Stationery",
+      "price": 10,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Hauser | Type: Ballpoint | Ink: Green | Signatures & grading"
+    },
+    {
+      "id": "pen-hauser-sonic-blue",
+      "name": "Hauser Sonic Gel Pen (Blue 0.5mm)",
+      "category": "Stationery",
+      "price": 15,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Hauser | Type: Gel Pen | Ink: Blue | Waterproof Japanese tip gel"
+    },
+    {
+      "id": "pen-hauser-fluid-blue",
+      "name": "Hauser Fluid Liquid Ink Roller Pen (Blue)",
+      "category": "Stationery",
+      "price": 25,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Hauser | Type: Rollerball | Ink: Blue | Continuous liquid ink flow"
+    },
+    {
+      "id": "pen-pentonic-ball-blue",
+      "name": "Pentonic 0.7mm Featherlite Ball Pen (Blue)",
+      "category": "Stationery",
+      "price": 10,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Pentonic | Type: Ballpoint | Ink: Blue | Matte black barrel sleek featherlite"
+    },
+    {
+      "id": "pen-pentonic-ball-black",
+      "name": "Pentonic 0.7mm Featherlite Ball Pen (Black)",
+      "category": "Stationery",
+      "price": 10,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Pentonic | Type: Ballpoint | Ink: Black | Matte black finish precision ball"
+    },
+    {
+      "id": "pen-pentonic-ball-red",
+      "name": "Pentonic 0.7mm Featherlite Ball Pen (Red)",
+      "category": "Stationery",
+      "price": 10,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Pentonic | Type: Ballpoint | Ink: Red | Smooth flowing red ink"
+    },
+    {
+      "id": "pen-pentonic-ball-green",
+      "name": "Pentonic 0.7mm Featherlite Ball Pen (Green)",
+      "category": "Stationery",
+      "price": 10,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Pentonic | Type: Ballpoint | Ink: Green | Official green marking ink"
+    },
+    {
+      "id": "pen-pentonic-brt-blue",
+      "name": "Pentonic B-RT Retractable Click Ball Pen (Blue)",
+      "category": "Stationery",
+      "price": 20,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Pentonic | Type: Ballpoint | Ink: Blue | Retractable push-button click"
+    },
+    {
+      "id": "pen-pentonic-brt-black",
+      "name": "Pentonic B-RT Retractable Click Ball Pen (Black)",
+      "category": "Stationery",
+      "price": 20,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Pentonic | Type: Ballpoint | Ink: Black | Click mechanism smooth dark ink"
+    },
+    {
+      "id": "pen-pentonic-frost-gel-blue",
+      "name": "Pentonic Frost Gel Pen (Blue 0.6mm)",
+      "category": "Stationery",
+      "price": 15,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Pentonic | Type: Gel Pen | Ink: Blue | Frosted body high speed gel"
+    },
+    {
+      "id": "pen-pentonic-assorted-pack",
+      "name": "Pentonic Multicolor Ball Pens (Pack of 10 Assorted)",
+      "category": "Stationery",
+      "price": 100,
+      "unit": "per pack",
+      "inStock": true,
+      "description": "Brand: Pentonic | Type: Ballpoint | Ink: Assorted | 10 vibrant colours set"
+    },
+    {
+      "id": "pen-flair-writometer-blue",
+      "name": "Flair Writometer Ball Pen (Blue - 10,000 Meters)",
+      "category": "Stationery",
+      "price": 30,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Flair | Type: Ballpoint | Ink: Blue | Writes 10,000 meters non-stop with meter scale"
+    },
+    {
+      "id": "pen-flair-writometer-black",
+      "name": "Flair Writometer Ball Pen (Black - 10,000 Meters)",
+      "category": "Stationery",
+      "price": 30,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Flair | Type: Ballpoint | Ink: Black | Long writing 10,000 meters meter pen"
+    },
+    {
+      "id": "pen-flair-glass-gel-blue",
+      "name": "Flair Glass Gel Pen (Blue 0.5mm)",
+      "category": "Stationery",
+      "price": 10,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Flair | Type: Gel Pen | Ink: Blue | Transparent body smooth needle gel"
+    },
+    {
+      "id": "pen-flair-glass-gel-black",
+      "name": "Flair Glass Gel Pen (Black 0.5mm)",
+      "category": "Stationery",
+      "price": 10,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Flair | Type: Gel Pen | Ink: Black | Smudge-proof black gel"
+    },
+    {
+      "id": "pen-flair-ezee-click-blue",
+      "name": "Flair Ezee Click Retractable Ball Pen (Blue)",
+      "category": "Stationery",
+      "price": 10,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Flair | Type: Ballpoint | Ink: Blue | Pocket-friendly click ball pen"
+    },
+    {
+      "id": "pen-flair-carbonix-blue",
+      "name": "Flair Carbonix Ball Pen (Blue)",
+      "category": "Stationery",
+      "price": 15,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Flair | Type: Ballpoint | Ink: Blue | Dark carbon ink technology"
+    },
+    {
+      "id": "pen-flair-inky-fountain",
+      "name": "Flair Inky Liquid Ink Fountain Pen (Blue)",
+      "category": "Stationery",
+      "price": 40,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Flair | Type: Fountain Pen | Ink: Blue | Smooth iridium tip with ink cartridge"
+    },
+    {
+      "id": "pen-pilot-v5-blue",
+      "name": "Pilot V5 Hi-Tecpoint Liquid Ink Rollerball Pen (Blue)",
+      "category": "Stationery",
+      "price": 60,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Pilot | Type: Rollerball | Ink: Blue | Japanese 0.5mm extra fine dimple tip"
+    },
+    {
+      "id": "pen-pilot-v5-black",
+      "name": "Pilot V5 Hi-Tecpoint Liquid Ink Rollerball Pen (Black)",
+      "category": "Stationery",
+      "price": 60,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Pilot | Type: Rollerball | Ink: Black | 0.5mm needle point official black"
+    },
+    {
+      "id": "pen-pilot-v5-red",
+      "name": "Pilot V5 Hi-Tecpoint Liquid Ink Rollerball Pen (Red)",
+      "category": "Stationery",
+      "price": 60,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Pilot | Type: Rollerball | Ink: Red | Precision red correction pen"
+    },
+    {
+      "id": "pen-pilot-v5-green",
+      "name": "Pilot V5 Hi-Tecpoint Liquid Ink Rollerball Pen (Green)",
+      "category": "Stationery",
+      "price": 60,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Pilot | Type: Rollerball | Ink: Green | Signature & approval ink"
+    },
+    {
+      "id": "pen-pilot-v7-blue",
+      "name": "Pilot V7 Hi-Tecpoint Rollerball Pen (Blue 0.7mm Bold)",
+      "category": "Stationery",
+      "price": 60,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Pilot | Type: Rollerball | Ink: Blue | 0.7mm medium bold line liquid ink"
+    },
+    {
+      "id": "pen-pilot-g2-blue",
+      "name": "Pilot G2 Premium Retractable Gel Pen (Blue 0.7mm)",
+      "category": "Stationery",
+      "price": 90,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Pilot | Type: Gel Pen | Ink: Blue | Cushioned grip dynamic gel formulation"
+    },
+    {
+      "id": "pen-rorito-flymax-blue",
+      "name": "Rorito Flymax Gel Pen (Blue)",
+      "category": "Stationery",
+      "price": 15,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Rorito | Type: Gel Pen | Ink: Blue | High speed waterproof gel writing"
+    },
+    {
+      "id": "pen-rorito-flymax-black",
+      "name": "Rorito Flymax Gel Pen (Black)",
+      "category": "Stationery",
+      "price": 15,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Rorito | Type: Gel Pen | Ink: Black | Deep black waterproof gel"
+    },
+    {
+      "id": "pen-rorito-teramax-blue",
+      "name": "Rorito Teramax Liquid Gel Pen (Blue)",
+      "category": "Stationery",
+      "price": 50,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Rorito | Type: Rollerball / Gel | Ink: Blue | High tech liquid ink flow"
+    },
+    {
+      "id": "pen-rorito-robomax-blue",
+      "name": "Rorito Robomax Ball Pen (Blue)",
+      "category": "Stationery",
+      "price": 10,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Rorito | Type: Ballpoint | Ink: Blue | Robot tip sturdy ball pen"
+    },
+    {
+      "id": "pen-uniball-eye-blue",
+      "name": "Uniball Eye UB-150 Rollerball Pen (Blue)",
+      "category": "Stationery",
+      "price": 85,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Uniball | Type: Rollerball | Ink: Blue | Fade-proof waterproof Super Ink system"
+    },
+    {
+      "id": "pen-uniball-eye-black",
+      "name": "Uniball Eye UB-150 Rollerball Pen (Black)",
+      "category": "Stationery",
+      "price": 85,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Uniball | Type: Rollerball | Ink: Black | Legal & document proof tamper-proof ink"
+    },
+    {
+      "id": "pen-uniball-eye-red",
+      "name": "Uniball Eye UB-150 Rollerball Pen (Red)",
+      "category": "Stationery",
+      "price": 85,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Uniball | Type: Rollerball | Ink: Red | High precision stainless steel tip"
+    },
+    {
+      "id": "pen-uniball-jetstream-blue",
+      "name": "Uniball Jetstream Quick-Drying Ball Pen (Blue)",
+      "category": "Stationery",
+      "price": 60,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Uniball | Type: Ballpoint | Ink: Blue | Hybrid ink dries 9x faster, zero smudge"
+    },
+    {
+      "id": "pen-parker-beta-ball-blue",
+      "name": "Parker Beta Standard Ballpoint Pen (Blue)",
+      "category": "Stationery",
+      "price": 150,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Parker | Type: Ballpoint | Ink: Blue | Gift box executive ball pen with quink flow refill"
+    },
+    {
+      "id": "pen-parker-vector-roller-blue",
+      "name": "Parker Vector Stainless Steel Rollerball Pen (Blue)",
+      "category": "Stationery",
+      "price": 350,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Parker | Type: Rollerball | Ink: Blue | Premium stainless steel body roller pen"
+    },
+    {
+      "id": "pen-montex-megatop-blue",
+      "name": "Montex Mega Top Ball Pen (Blue)",
+      "category": "Stationery",
+      "price": 10,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Montex | Type: Ballpoint | Ink: Blue | Legendary student ball pen"
+    },
+    {
+      "id": "pen-montex-winner-gel-blue",
+      "name": "Montex Winner Gel Pen (Blue)",
+      "category": "Stationery",
+      "price": 15,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Montex | Type: Gel Pen | Ink: Blue | Needle point smooth gel pen"
+    },
+    {
+      "id": "pen-luxor-finewriter-blue",
+      "name": "Luxor Fine Writer 0.5mm Micro-tip Pen (Blue)",
+      "category": "Stationery",
+      "price": 15,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Luxor | Type: Fineliner | Ink: Blue | Japanese polyacetal tip for ruled & sketch writing"
+    },
+    {
+      "id": "pen-luxor-finewriter-black",
+      "name": "Luxor Fine Writer 0.5mm Micro-tip Pen (Black)",
+      "category": "Stationery",
+      "price": 15,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Luxor | Type: Fineliner | Ink: Black | Fine technical drawing & outline pen"
+    },
+    {
+      "id": "pen-luxor-finewriter-red",
+      "name": "Luxor Fine Writer 0.5mm Micro-tip Pen (Red)",
+      "category": "Stationery",
+      "price": 15,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Luxor | Type: Fineliner | Ink: Red | Precise line marking & editing"
+    },
+    {
+      "id": "pen-luxor-finewriter-green",
+      "name": "Luxor Fine Writer 0.5mm Micro-tip Pen (Green)",
+      "category": "Stationery",
+      "price": 15,
+      "unit": "per piece",
+      "inStock": true,
+      "description": "Brand: Luxor | Type: Fineliner | Ink: Green | Signatures & highlighting"
+    },
+    {
+      "id": "pen-luxor-graphic-set",
+      "name": "Luxor Graphic Fineliner Pens (Set of 10 Colors)",
+      "category": "Stationery",
+      "price": 150,
+      "unit": "per pack",
+      "inStock": true,
+      "description": "Brand: Luxor | Type: Fineliner | Ink: Assorted | 10 vibrant fineline colors for sketching & charts"
+    }
+  ],
+  "orders": [
+    {
+      "customerId": "usr-mue7oqov-ml4y",
+      "customerName": "keerthan",
+      "customerPhone": "6360932874",
+      "customerEmail": "6360932874@customer.jmenterprises.local",
+      "lines": [
+        {
+          "itemId": "p-photo",
+          "name": "Passport Photo Print (Set of 8)",
+          "price": 30,
+          "qty": 1,
+          "unit": "per set",
+          "category": "Printing"
+        },
+        {
+          "itemId": "s-pen-blue",
+          "name": "Ball Pen (Blue ink)",
+          "price": 10,
+          "qty": 1,
+          "unit": "per piece",
+          "category": "Stationery"
+        },
+        {
+          "itemId": "s-pen-black",
+          "name": "Ball Pen (Black ink)",
+          "price": 10,
+          "qty": 1,
+          "unit": "per piece",
+          "category": "Stationery"
+        }
+      ],
+      "subtotal": 50,
+      "total": 50,
+      "status": "completed",
+      "kind": "order",
+      "paymentMethod": "cash",
+      "id": "jm-ord-008",
+      "receiptNumber": "008",
+      "createdAt": 1790177197443,
+      "updatedAt": 1790182552317
+    },
+    {
+      "customerId": "usr-admin-01",
+      "customerName": "Nanu",
+      "customerPhone": "8747991688",
+      "customerEmail": "Nanu@gmail.com",
+      "lines": [
+        {
+          "itemId": "p-color",
+          "name": "Colour Printout (A4)",
+          "price": 19,
+          "qty": 1,
+          "category": "Printing"
+        },
+        {
+          "itemId": "x-color",
+          "name": "Colour Xerox / Photocopy",
+          "price": 10,
+          "qty": 1,
+          "category": "Xerox"
+        },
+        {
+          "itemId": "p-lam",
+          "name": "Lamination (A4 Document)",
+          "price": 20,
+          "qty": 1,
+          "category": "Printing"
+        },
+        {
+          "itemId": "s-pen-black",
+          "name": "Ball Pen (Black ink)",
+          "price": 10,
+          "qty": 1,
+          "category": "Stationery"
+        },
+        {
+          "itemId": "s-sharp",
+          "name": "Sharpener with Container",
+          "price": 5,
+          "qty": 1,
+          "category": "Stationery"
+        },
+        {
+          "itemId": "s-nb-lg",
+          "name": "Long Register Notebook (200 pages)",
+          "price": 80,
+          "qty": 1,
+          "category": "Stationery"
+        },
+        {
+          "itemId": "m-aeps",
+          "name": "Aadhaar ATM Cash Withdrawal",
+          "price": 15,
+          "qty": 1,
+          "category": "Money Transfer"
+        },
+        {
+          "itemId": "nb-std-200-single",
+          "name": "Notebook (200 Pages - Single Line)",
+          "price": 65,
+          "qty": 1,
+          "category": "Stationery"
+        }
+      ],
+      "subtotal": 224,
+      "total": 224,
+      "status": "completed",
+      "kind": "order",
+      "paymentMethod": "cash",
+      "id": "jm-ord-007",
+      "receiptNumber": "007",
+      "createdAt": 1790177017945
+    },
+    {
+      "customerId": "usr-mue851wj-nui5",
+      "customerName": "Preethi S",
+      "customerPhone": "9972339830",
+      "customerEmail": "9972339830@customer.jmenterprises.local",
+      "lines": [
+        {
+          "itemId": "s-pen-blue",
+          "name": "Ball Pen (Blue ink)",
+          "price": 10,
+          "qty": 2,
+          "unit": "per piece",
+          "category": "Stationery"
+        },
+        {
+          "itemId": "s-pen-black",
+          "name": "Ball Pen (Black ink)",
+          "price": 10,
+          "qty": 3,
+          "unit": "per piece",
+          "category": "Stationery"
+        },
+        {
+          "itemId": "s-gel-pen",
+          "name": "Waterproof Gel Pen (0.5mm)",
+          "price": 20,
+          "qty": 2,
+          "unit": "per piece",
+          "category": "Stationery"
+        },
+        {
+          "itemId": "s-sharp",
+          "name": "Sharpener with Container",
+          "price": 5,
+          "qty": 1,
+          "unit": "per piece",
+          "category": "Stationery"
+        },
+        {
+          "itemId": "s-nb-lg",
+          "name": "Long Register Notebook (200 pages)",
+          "price": 80,
+          "qty": 6,
+          "unit": "per piece",
+          "category": "Stationery"
+        },
+        {
+          "itemId": "s-a4-bundle",
+          "name": "A4 Copier Paper Bundle (100 Sheets)",
+          "price": 150,
+          "qty": 3,
+          "unit": "per pack",
+          "category": "Stationery"
+        },
+        {
+          "itemId": "s-a4-rim",
+          "name": "A4 Copier Paper Full Ream (500 Sheets)",
+          "price": 340,
+          "qty": 3,
+          "unit": "per ream",
+          "category": "Stationery"
+        },
+        {
+          "itemId": "s-glue",
+          "name": "Fevistik Glue Stick (15g)",
+          "price": 20,
+          "qty": 2,
+          "unit": "per piece",
+          "category": "Stationery"
+        },
+        {
+          "itemId": "s-highlight",
+          "name": "Fluorescent Highlighter",
+          "price": 25,
+          "qty": 1,
+          "unit": "per piece",
+          "category": "Stationery"
+        },
+        {
+          "itemId": "s-stapler",
+          "name": "Stapler No. 10 with Pins Box",
+          "price": 65,
+          "qty": 2,
+          "unit": "per set",
+          "category": "Stationery"
+        },
+        {
+          "itemId": "nb-long-200-single",
+          "name": "Long Notebook (200 Pages - Single Line)",
+          "price": 90,
+          "qty": 4,
+          "unit": "per book",
+          "category": "Stationery"
+        },
+        {
+          "itemId": "nb-reg-3q",
+          "name": "Account Register Book (3Q - 3 Quire / ~288 Pages)",
+          "price": 140,
+          "qty": 2,
+          "unit": "per book",
+          "category": "Stationery"
+        }
+      ],
+      "subtotal": 2880,
+      "total": 2880,
+      "status": "completed",
+      "kind": "order",
+      "paymentMethod": "cash",
+      "id": "jm-ord-006",
+      "receiptNumber": "006",
+      "createdAt": 1790175912196,
+      "updatedAt": 1790175984131
+    },
+    {
+      "id": "jm-ord-001",
+      "receiptNumber": "001",
+      "createdAt": 1790052096610,
+      "customerName": "Prashanth Singh",
+      "customerPhone": "8747991688",
+      "note": "Please spiral bind with transparent sheet on front",
+      "lines": [
+        {
+          "itemId": "p-bw",
+          "name": "B&W Printout (A4)",
+          "price": 2,
+          "qty": 35,
+          "category": "Printing"
+        },
+        {
+          "itemId": "p-bind",
+          "name": "Spiral Binding with Transparent Cover",
+          "price": 40,
+          "qty": 1,
+          "category": "Printing"
+        },
+        {
+          "itemId": "s-pen-blue",
+          "name": "Ball Pen (Blue ink)",
+          "price": 10,
+          "qty": 2,
+          "category": "Stationery"
+        }
+      ],
+      "subtotal": 130,
+      "total": 130,
+      "status": "completed",
+      "kind": "order",
+      "paymentMethod": "upi",
+      "upiRef": "UPI-77492810",
+      "updatedAt": 1790140092149
+    },
+    {
+      "id": "jm-ord-002",
+      "receiptNumber": "002",
+      "createdAt": 1790127696610,
+      "customerName": "Ramesh Kumar",
+      "customerPhone": "9845012345",
+      "note": "Urgent transfer to SBI AC 30981293812",
+      "lines": [
+        {
+          "itemId": "m-transfer",
+          "name": "Domestic Money Transfer (DMT / IMPS)",
+          "price": 20,
+          "qty": 1,
+          "category": "Money Transfer"
+        }
+      ],
+      "subtotal": 20,
+      "transferAmount": 2000,
+      "serviceFee": 20,
+      "total": 2020,
+      "status": "completed",
+      "kind": "money_transfer",
+      "paymentMethod": "cash",
+      "updatedAt": 1790140094871
+    },
+    {
+      "customerName": "Walk-in Customer",
+      "customerPhone": "8747991688",
+      "lines": [
+        {
+          "itemId": "test-1",
+          "name": "B&W Printout (A4)",
+          "price": 2,
+          "qty": 5,
+          "category": "Printing"
+        }
+      ],
+      "subtotal": 10,
+      "total": 10,
+      "status": "completed",
+      "kind": "order",
+      "paymentMethod": "cash",
+      "id": "jm-ord-003",
+      "receiptNumber": "003",
+      "createdAt": 1790142132756,
+      "updatedAt": 1790142358993
+    },
+    {
+      "customerName": "Walk-in Customer",
+      "customerPhone": "8747991688",
+      "lines": [
+        {
+          "itemId": "test-2",
+          "name": "Color Printout (A4)",
+          "price": 10,
+          "qty": 3,
+          "category": "Printing"
+        }
+      ],
+      "subtotal": 30,
+      "total": 30,
+      "status": "completed",
+      "kind": "order",
+      "paymentMethod": "cash",
+      "id": "jm-ord-004",
+      "receiptNumber": "004",
+      "createdAt": 1790142178132
+    },
+    {
+      "customerId": "usr-admin-01",
+      "customerName": "keerthan",
+      "customerPhone": "8747991688",
+      "lines": [
+        {
+          "itemId": "s-glue",
+          "name": "Fevistik Glue Stick (15g)",
+          "price": 20,
+          "qty": 1,
+          "category": "Stationery"
+        }
+      ],
+      "subtotal": 20,
+      "total": 20,
+      "status": "completed",
+      "kind": "order",
+      "paymentMethod": "upi",
+      "upiRef": "9945163448@ybl",
+      "id": "jm-ord-005",
+      "receiptNumber": "005",
+      "createdAt": 1790142311333
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+-- ====================================================================
+-- JM ENTERPRISES - USER CREDENTIALS & PASSWORDS DATABASE (jm.db)
+-- Store: JM Enterprises (Stationery, Xerox, Printout & Digital Center)
+-- Last Updated: 2026-09-30T11:14:51.530Z
+-- Total Active Accounts: 1
+-- File: jm.db
+-- Description: Reference database storing all User IDs, Accounts & Passwords
+-- ====================================================================
+
+/*
++---------------------------------------------------------------------------------------------------------------------------------------+
+|                                        JM.DB - QUICK REFERENCE CREDENTIALS TABLE                                                      |
++----------------------+----------------------+---------------------------+------------+--------------------+-----------------+--------+
+| USER ID              | NAME                 | EMAIL / PHONE             | ROLE       | PASSWORD (REF)     | CREATED DATE    | STATUS |
++----------------------+----------------------+---------------------------+------------+--------------------+-----------------+--------+
+| usr-admin-01         | JM Administrator     | admin@jmenterprises.com   | ADMIN      | admin123           | 2026-08-26      | active |
++----------------------+----------------------+---------------------------+------------+--------------------+-----------------+--------+
+*/
+
+-- --------------------------------------------------------------------
+-- SQL SCHEMA & TABLE CREATION
+-- --------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS user_credentials (
+    id TEXT PRIMARY KEY,
+    name TEXT NOT NULL,
+    email TEXT,
+    phone TEXT,
+    role TEXT NOT NULL DEFAULT 'customer',
+    password TEXT NOT NULL,          -- Reference password
+    password_hash TEXT NOT NULL,     -- PBKDF2-HMAC-SHA512
+    salt TEXT NOT NULL,              -- 16-byte cryptographic salt
+    created_at INTEGER NOT NULL,
+    last_login_at INTEGER,
+    status TEXT NOT NULL DEFAULT 'active'
+);
+
+-- --------------------------------------------------------------------
+-- SQL DATA INSERT STATEMENTS FOR ALL USER CREDENTIALS
+-- --------------------------------------------------------------------
+INSERT OR REPLACE INTO user_credentials (id, name, email, phone, role, password, password_hash, salt, created_at, last_login_at, status)
+VALUES (
+    "usr-admin-01",
+    "JM Administrator",
+    "admin@jmenterprises.com",
+    "8747991688",
+    "admin",
+    "admin123", -- Plaintext Password for Reference
+    "a90ec7e3c51c3346cb709bba235ba10e720ebe34f35455afcc6b2f07201635c7a2772b6881b1519f9f12b9d61bb9f8cd3b10900cb3d563d91898a8bb2b88464c",
+    "0fd2b10958c8f3cf8e57724e9d162f31",
+    1787719798483,
+    1790765717584,
+    "active"
+);
+
+-- --------------------------------------------------------------------
+-- JSON SNAPSHOT FOR QUICK PARSING & API EXPORT
+-- --------------------------------------------------------------------
+/* JSON_DATA_START
+[
+  {
+    "id": "usr-admin-01",
+    "name": "JM Administrator",
+    "email": "admin@jmenterprises.com",
+    "phone": "8747991688",
+    "role": "admin",
+    "password": "admin123",
+    "created_at": 1787719798483,
+    "created_date": "2026-08-26T04:49:58.483Z",
+    "last_login_at": 1790765717584,
+    "status": "active"
+  }
+]
+JSON_DATA_END */
